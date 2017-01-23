@@ -26,7 +26,7 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#myCarousel">Richard Farman</a>
+      <a class="navbar-brand" href="#carousel">Richard Farman</a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
@@ -50,11 +50,11 @@
       </div>
     </nav>
 
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+        <li data-target="#carousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
@@ -88,21 +88,21 @@
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
     </div>
 
     <!-- Marketing messaging and featurettes
-    ================================================== -->
+         ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <div class="container marketing">
+    <div class="container content">
 
       <!-- Three columns of text below the carousel -->
       <div class="header" id="about">
@@ -135,12 +135,12 @@
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
-      <hr class="featurette-divider">
+      <hr class="item-divider">
 
       <div class="header" id="dev">
         <h1>Software Development</h1>
       </div>
-            <div class="row">
+      <div class="row">
         <div class="col-lg-4">
           <i class="material-icons" style="font-size: 72px">polymer</i>
           <h3>Front-End</h3>
@@ -158,94 +158,120 @@
         </div>
       </div>
 
-      <div class="row featurette align-items-end">
-          <div class="media">
-            <img class="d-flex align-self-center mr-3" src="https://vigilmap.com/static/media/vigil.af8a8941.png" alt="Generic placeholder image">
-            <div class="media-body">
+      <div class="row item align-items-end">
+        <div class="media">
 
-              <a href="https://vigilmap.com/heatmap"><h3>VIGIL</h3></a>
-              <h5 class="text-muted">VIGIL LLC - 2017</span></h5>
-              Founder and lead developer of VIGIL, a web/mobile application supporting modern sexual violence prevention for on-campus safety. Features authentication, databasing, and geolocation, with a host of features. Developed using React, Firebase, Google Maps API, Redux, and Immutable.js.
-</div>
-          <p class="d-flex ml-3 align-self-center"><a class="btn btn-lg btn-link" href="https://vigilmap.com/heatmap" role="button">Check it Out</a></p>
+          <img
+             class="d-flex align-self-center mr-3"
+             src="https://vigilmap.com/static/media/vigil.af8a8941.png"
+             alt="Generic placeholder image"
+          >
 
+          <div class="media-body">
+
+            <a href="https://vigilmap.com/heatmap">
+              <h3>VIGIL</h3>
+            </a>
+            <h5 class="text-muted">VIGIL LLC - 2017</h5>
+            Founder and lead developer of VIGIL, a web/mobile application supporting modern sexual violence prevention for on-campus safety. Features authentication, databasing, and geolocation, with a host of features. Developed using React, Firebase, Google Maps API, Redux, and Immutable.js.
+            <div>
+              <a class="btn btn-lg btn-link" href="https://vigilmap.com/heatmap" role="button">
+              Website
+            </a>
+            </div>
+          </div>
         </div>
+
       </div>
 
-      <hr class="featurette-divider">
+      <hr class="item-divider">
 
-      <div class="row featurette align-items-end">
-          <div class="media">
-            <img class="d-flex align-self-center mr-3" src="https://code.pyret.org/img/pyret-logo.png" alt="Generic placeholder image">
-            <div class="media-body">
+      <div class="row item align-items-end">
+        <div class="media">
+          <img class="d-flex align-self-center mr-3" src="https://code.pyret.org/img/pyret-logo.png" alt="Generic placeholder image">
+          <div class="media-body">
 
-              <a href="https://www.pyret.org/"><h3>Pyret-IDE</h3></a>
-              <h5 class="text-muted">Carduner Consulting LLC - 2016</span></h5>
-              Developed modern front end interface and user experience for a web-based educational IDE. Implemented token tracking for parser and abstract syntax-tree conversion algorithms. Conducted test-driven development using Jasmine behavioral Javascript framework. Mentored by Paul Carduner, former Facebook Seattle Engineering Manager/Site Lead.
+            <a href="https://www.pyret.org/"><h3>Pyret-IDE</h3></a>
+            <h5 class="text-muted">Carduner Consulting LLC - 2016</h5>
+            Developed modern front end interface and user experience for a web-based educational IDE. Implemented token tracking for parser and abstract syntax-tree conversion algorithms. Conducted test-driven development using Jasmine behavioral Javascript framework. Mentored by Paul Carduner, former Facebook Seattle Engineering Manager/Site Lead.
+            <div>
+              <a class="btn btn-lg btn-link" href="https://code.pyret.org/" role="button">
+                Website
+              </a>
+              <a class="btn btn-lg btn-link" href="https://github.com/pcardune/pyret-ide" role="button">
+                Source
+              </a>
             </div>
-<div class="ml-3 align-self-center">
-              <p><a class="btn btn-lg btn-link" href="https://code.pyret.org/" role="button">Check it Out</a></p>
-              <p><a class="btn btn-lg btn-link" href="https://github.com/pcardune/pyret-ide" role="button">Source Code</a></p>
           </div>
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr class="item-divider">
 
-      <div class="row featurette align-items-end">
-          <div class="media">
-            <img class="d-flex align-self-center mr-3" src="http://icons.iconarchive.com/icons/icons8/windows-8/256/Security-Iris-Scan-icon.png" alt="Generic placeholder image">
-            <div class="media-body">
+      <div class="row item align-items-end">
+        <div class="media">
+          <img class="d-flex align-self-center mr-3" src="http://icons.iconarchive.com/icons/icons8/windows-8/256/Security-Iris-Scan-icon.png" alt="Generic placeholder image">
+          <div class="media-body">
 
-              <a href="https://idvisor-d691d.firebaseapp.com/"><h3>Idvisor</h3></a>
-              <h5 class="text-muted">Carduner Consulting LLC - 2016</span></h5>
-              Artificial Intelligence training and testing platform using computer vision and custom models for computer vision. Developed as a final project for an AI class, Primary usage is training a model to recognize memes from other pictures.
+            <a href="https://idvisor-d691d.firebaseapp.com/"><h3>Idvisor</h3></a>
+            <h5 class="text-muted">Carduner Consulting LLC - 2016</h5>
+            Artificial Intelligence training and testing platform using computer vision and custom models for computer vision. Developed as a final project for an AI class, Primary usage is training a model to recognize memes from other pictures.
+            <div>
+              <a class="btn btn-lg btn-link" href="https://idvisor-d691d.firebaseapp.com/" role="button">
+                Prototype
+              </a>
+              <a class="btn btn-lg btn-link" href="https://github.com/farmanrl/idvisor" role="button">
+                Source
+              </a>
             </div>
-<div class="ml-3 align-self-center">
-              <p><a class="btn btn-lg btn-link" href="https://idvisor-d691d.firebaseapp.com/" role="button">Check it Out</a></p>
-              <p><a class="btn btn-lg btn-link" href="https://github.com/farmanrl/idvisor" role="button">Source Code</a></p>
-</div>
+          </div>
         </div>
       </div>
 
 
-      <hr class="featurette-divider">
+      <hr class="item-divider">
 
-      <div class="row featurette align-items-end">
-          <div class="media">
-            <img class="d-flex align-self-center mr-3" src="http://intreis.com/wp-content/themes/intreis/img/icon-people.png" alt="Generic placeholder image">
-            <div class="media-body">
-
-              <a href="https://farmanrl.github.io/spectrum/"><h3>Spectrum</h3></a>
-              <h5 class="text-muted">Independent - 2016</span></h5>
-              Created 'Spectrum', project management software for organized collaboration and communication across a network of users to develop projects from ideas, to prototypes, and startups. Used primarily as a platform to train and recruit developers from the CS@Whitman club.
+      <div class="row item align-items-end">
+        <div class="media">
+          <img class="d-flex align-self-start mr-3" src="http://intreis.com/wp-content/themes/intreis/img/icon-people.png">
+          <div class="media-body">
+            <a href="https://farmanrl.github.io/spectrum/"><h3>Spectrum</h3></a>
+            <h5 class="text-muted">Independent - 2016</h5>
+            Created 'Spectrum', project management software for organized collaboration and communication across a network of users to develop projects from ideas, to prototypes, and startups. Used primarily as a platform to train and recruit developers from the CS@Whitman club.
+            <div>
+              <a class="btn btn-lg btn-link" href="https://spectrum-c5087.firebaseapp.com/" role="button">
+                Prototype
+              </a>
+              <a class="btn btn-lg btn-link" href="https://github.com/farmanrl/spectrum" role="button">
+                Source
+              </a>
             </div>
-            <div class="ml-3 align-self-center">
-              <p><a class="btn btn-lg btn-link" href="https://spectrum-c5087.firebaseapp.com/" role="button">Check it Out</a></p>
-              <p><a class="btn btn-lg btn-link" href="https://github.com/farmanrl/spectrum" role="button">Source Code</a></p>
-            </div>
+          </div>
         </div>
       </div>
 
-      <hr class="featurette-divider">
+      <hr class="item-divider">
 
-      <div class="row featurette align-items-end">
-          <div class="media">
-            <img class="d-flex align-self-center mr-3" src="http://i.imgur.com/HcCeSUu.png" alt="Generic placeholder image">
-            <div class="media-body">
-
-              <a href="https://petfolio-62d47.firebaseapp.com/"><h3>Petfolio</h3></a>
-              <h5 class="text-muted">Independent - 2016</span></h5>
-              Designed in cooperation with key stakeholders in the community in a human-centered design process, Petfolio was envisioned as a service to connect animals in need with potential pet owners. Developed a web prototype as a proof of concept.
+      <div class="row item align-items-end">
+        <div class="media">
+          <img class="d-flex align-self-start mr-3" src="http://i.imgur.com/HcCeSUu.png" width="128px">
+          <div class="media-body">
+            <a href="https://petfolio-62d47.firebaseapp.com/"><h3>Petfolio</h3></a>
+            <h5 class="text-muted">Independent - 2016</h5>
+            Designed in cooperation with key stakeholders in the community in a human-centered design process, Petfolio was envisioned as a service to connect animals in need with potential pet owners. Developed a web prototype as a proof of concept.
+            <div>
+              <a class="btn btn-lg btn-link" href="https://petfolio-62d47.firebaseapp.com/" role="button">
+                Prototype
+              </a>
+              <a class="btn btn-lg btn-link" href="https://github.com/farmanrl/petfolio" role="button">
+                Source
+              </a>
             </div>
-            <div class="ml-3 align-self-center">
-              <p><a class="btn btn-lg btn-link" href="https://petfolio-62d47.firebaseapp.com/" role="button">Check it Out</a></p>
-              <p><a class="btn btn-lg btn-link" href="https://github.com/farmanrl/petfolio" role="button">Source Code</a></p>
-            </div>
+          </div>
         </div>
       </div>
 
-<hr class="featurette-divider">
+      <hr class="item-divider">
 
       <div class="header" id="media">
         <h1>Portfolio</h1>
@@ -255,7 +281,7 @@
         <div class="container">
 
           <div class="row">
-            <div class="card">
+            <div class="col-lg-4">
               <div class="embed-responsive embed-responsive-1by1">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bwLJQTOa0E4?rel=0" frameborder="0" allowfullscreen></iframe>
               </div>
@@ -263,7 +289,7 @@
               <a href="https://experiment.com/projects/impact-of-soylent-consumption-on-human-microbiome-composition"><h6>Impact of Soylent Consumption on Humans</h6></a>
               <p class="card-text">As students carry out their busy lifestyles, many are turning to inexpensive and convenient drink based meal-alternatives, such as Soylent, to supplement or replace their regular diets. We crowdfunded $6,405 to start a project to track the composition of participant's microbiome before, during, and after Soylent use to more holistically understand Soylent's impact on microbiome health.</p>
             </div>
-            <div class="card">
+            <div class="col-lg-4">
               <div class="embed-responsive embed-responsive-1by1">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qnccPRW9AGk" frameborder="0" allowfullscreen></iframe>
               </div>
@@ -271,7 +297,7 @@
               <a href="http://www.sutterroseville.org/services/endoscopy/education/"><h6>3-2-1 Get Screened! Colon Cancer Awareness</h6></a>
               <p class="card-text">Colon Cancer is one of the greatest threats to the health adults over 50, yet also one of the most preventable. This video was created as a campaign to raise awareness and motivate screenings to educate the public and save lives. Recieved award for 'Best Video' from the American College of Gastroenterology.</p>
             </div>
-            <div class="card">
+            <div class="col-lg-4">
               <div class="embed-responsive embed-responsive-1by1">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oXc7SGK6mOw?rel=0" frameborder="0" allowfullscreen></iframe>
               </div>
@@ -283,22 +309,23 @@
           </div>
 
         </div>
-        <hr class="featurette-divider">
+        <hr class="item-divider">
 
         <div class="row">
-          <div class="card">
+          <div class="col-lg-4">
             <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BKh2l4Yh9F4/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by Richie Farman (@rlfarman)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-09-19T07:22:09+00:00">Sep 19, 2016 at 12:22am PDT</time></p></div></blockquote> <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
           </div>
-          <div class="card">
+          <div class="col-lg-4">
             <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BKU1XnFBIVG/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by Richie Farman (@rlfarman)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-09-14T06:01:20+00:00">Sep 13, 2016 at 11:01pm PDT</time></p></div></blockquote>
-<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+            <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
           </div>
-          <div class="card">
-<blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BKOOgD5BtGk/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by Richie Farman (@rlfarman)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-09-11T16:26:16+00:00">Sep 11, 2016 at 9:26am PDT</time></p></div></blockquote>
-<script async defer src="//platform.instagram.com/en_US/embeds.js"></script><script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+          <div class="col-lg-4">
+            <blockquote class="instagram-media" data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BKOOgD5BtGk/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by Richie Farman (@rlfarman)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2016-09-11T16:26:16+00:00">Sep 11, 2016 at 9:26am PDT</time></p></div></blockquote>
+            <script async defer src="//platform.instagram.com/en_US/embeds.js"></script><script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
           </div>
-      </div>
-        <hr class="featurette-divider">
+        </div>
+
+        <hr class="item-divider">
 
         <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-hidden="true">
           <div class="modal-dialog" role="document">
@@ -331,13 +358,13 @@
                   <li>CS-402 Artificial Intelligence (Python)</li>
                 </ul>
                 <p>At Whitman College, I'm part of the new generation of CS students, and I've taken every course they offer here: Intro to Computer Programming using Python, Data Structures using C++, Algorithm design and analysis with gnuplot, and a software design class called Human Computers Interact. I've also taken a special Physics supplement where we program physics simulations in VPython, which is a blast.</p>
-                  <p>The future is bright for CS at Whitman, and as a CS Mentor, Lab Tutor, and student representative on the CS Department, I’m at the forefront of the tech revolution at one most of the best liberal arts colleges in the country. I hope to continue to foster growth in CS community through both my efforts in my school life and my work. There's nothing I enjoy more than the feeling of conquering a CS challenge, but helping someone else do it is just as satisfying.</p>
+                <p>The future is bright for CS at Whitman, and as a CS Mentor, Lab Tutor, and student representative on the CS Department, I’m at the forefront of the tech revolution at one most of the best liberal arts colleges in the country. I hope to continue to foster growth in CS community through both my efforts in my school life and my work. There's nothing I enjoy more than the feeling of conquering a CS challenge, but helping someone else do it is just as satisfying.</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 <a href="https://www.whitman.edu/academics/departments-and-programs/mathematics-and-computer-science/computer-science">
-                  <button type="button" class="btn btn-primary" href="https://www.whitman.edu/academics/departments-and-programs/mathematics-and-computer-science/computer-science">
-                    Learn More
+                  <button type="button" class="btn btn-primary">
+                    CS@Whitman
                   </button>
                 </a>
               </div>
@@ -399,9 +426,9 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <a href="https://www.whitman.edu/academics/departments-and-programs/mathematics-and-computer-science/computer-science">
-                  <button type="button" class="btn btn-primary" href="https://www.whitman.edu/academics/departments-and-programs/mathematics-and-computer-science/computer-science">
-                    Learn More
+                <a href="https://github.com/farmanrl">
+                  <button type="button" class="btn btn-primary">
+                    Github
                   </button>
                 </a>
               </div>
@@ -425,9 +452,9 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <a href="https://www.whitman.edu/academics/departments-and-programs/mathematics-and-computer-science/computer-science">
-                  <button type="button" class="btn btn-primary" href="https://www.whitman.edu/academics/departments-and-programs/mathematics-and-computer-science/computer-science">
-                    Learn More
+                <a href="https://www.linkedin.com/in/farmanrl">
+                  <button type="button" class="btn btn-primary">
+                    LinkedIn
                   </button>
                 </a>
               </div>
@@ -435,25 +462,25 @@
           </div>
         </div>
 
-      <!-- FOOTER -->
-      <footer>
-        <p class="float-xs-right"><a href="#">Back to top</a></p>
-        <p>&copy; Custom built by Richard Farman</p>
-      </footer>
+        <!-- FOOTER -->
+        <footer>
+          <p class="float-xs-right"><a href="#">Back to top</a></p>
+          <p>&copy; Custom built by Richard Farman</p>
+        </footer>
 
-    </div><!-- /.container -->
+      </div><!-- /.container -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
-    <script src="./js/bootstrap.min.js"></script>
-    <script async defer src="http://platform.instagram.com/en_US/embeds.js"></script>
-    <script type="javascript/text">
-      $('body').scrollspy({ target: '#navbarCollapse })
-    </script>
+      <!-- Bootstrap core JavaScript
+           ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+        <script src="./js/bootstrap.min.js"></script>
+        <script async defer src="http://platform.instagram.com/en_US/embeds.js"></script>
+        <script type="javascript/text">
+          $('body').scrollspy({ target: '#navbarCollapse })
+        </script>
   </body>
 </html>
