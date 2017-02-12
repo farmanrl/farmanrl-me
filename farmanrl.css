@@ -9,7 +9,7 @@ body {
 
 }
 
-/* Header styles */
+/* Navbar styles */
 
 .navbar-brand {
     margin-rigth: 0px;
@@ -31,6 +31,7 @@ body {
   margin-bottom: 1.25rem;
   font-size: 1.25rem;
   line-height: 1.4;
+  z-index: 1000;
 }
 
 .carousel-item {
@@ -63,11 +64,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-/* Item styles */
-
-.item-divider {
-  margin: 2rem 0; /* Space out the Bootstrap <hr> more */
-}
+/* Software Development styles */
 
 .item-heading {
   font-weight: 300;
@@ -75,7 +72,7 @@ body {
   letter-spacing: -.05rem;
 }
 
-/* Media styles */
+/* Portfolio styles */
 
 .media > img {
   height: 128px;
@@ -99,6 +96,12 @@ body {
 
 .card-text {
   font-size: 85%;
+}
+
+/* Page styles */
+
+.page-divider {
+  margin: 2rem 0;
 }
 
 footer {
