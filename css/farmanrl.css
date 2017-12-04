@@ -16,6 +16,10 @@ body {
 
 /* Carousel styles */
 
+.carousel {
+  display: none;
+}
+
 .carousel-caption {
   background: rgba(50,50,50,.5);
   bottom: 3rem;
