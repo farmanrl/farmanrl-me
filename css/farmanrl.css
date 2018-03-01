@@ -14,41 +14,6 @@ body {
   margin-rigth: 0px;
 }
 
-/* Carousel styles */
-
-.carousel {
-  display: none;
-}
-
-.carousel-caption {
-  background: rgba(50,50,50,.5);
-  bottom: 3rem;
-}
-
-.carousel-caption p {
-  margin-bottom: 1.25rem;
-  font-size: 1.25rem;
-  line-height: 1.4;
-  z-index: 1000;
-}
-
-.carousel-item {
-  opacity: 1;
-  height: 95vh;
-  background-color: #777;
-}
-
-.carousel-item > img {
-  position: absolute;
-  min-width: 100%;
-  object-fit: cover;
-  height: 95vh;
-}
-
-.black-and-white {
-  filter: saturation(50%) contrast(105%);
-}
-
 /* Content styles */
 
 .content .col-lg-4 {
